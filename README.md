@@ -1,44 +1,78 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+# TeachAR
+- The purpose of this project is to offer a platform of Augmented Reality to help students understand a difficult topic.
+- A suggested application for teaching and studying astronomy, the human body anatomy, and volcanology were developed in this project. 
+- The technology is anticipated to increase their degree of comprehension about learning by providing them with both easy operability and immersive sense.
+- Using this method, students may improve their understanding of planets, planet types, moons, size, distance, orbit, rings, rotation, and other topics. 
+- Learners who use Augmented Reality (AR) may observe the solar orbit and planets as if they were physically there at the site. 
+User should be able to grasp the anatomy of the human body with ease utilizing a 3D picture representation. 
 
-These are common Git commands used in various situations:
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+# Screenshots
+<img src="screenshot/1_WelcomeScreen.png" width=150><img src="screenshot/2_Menu.png" width=150><img src="screenshot/3_Info.png" width=150><img src="screenshot/4_ViewIn3D.png" width=150><img src="screenshot/5_ViewInAR.png" width=150>
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+# Video
+ ![](screenshot/TeachARVideo.gif)
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+## Technology Used
+<!-- Add the used technology names of project. -->
+<a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
+<a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a>
+<a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" alt="android" width="40" height="40"/> </a> 
+<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
+<a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> 
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+## Software Requirements
+- Language: Dart 
+- Framework: Flutter 
+- Database: Firebase 
+- IDE: Android Studio 
+- SDK: Google AR Core 
+- Graphic Software: Blender
+
+## Hardware Requirements
+ - Operating system: Android 7.0 (API Level 24) 
+ - RAM: 4GB 
+ - ROM: 265MB 
+ - GPU: OpenGL ES Versions: 3.0 or 3.2 
+ - Camera: Depth API Support 
+ - Sensor: Time-F-Flight (Tof) Hardware Depth Sensor
+ - Display: Multiple GPU Texture Resolutions - 1080p, 720p, 480p 
+
+ ## Blender Workflow
+
+- Creating 3D model in blender
+
+![](/blender3Dmodel/blender_workflow/dino_in_blender.png)
+
+- Developing augmented reality object
+
+![](/blender3Dmodel/blender_workflow/planet_in_blender.png)
+
+-  Animation scene of the solar system model 
+
+![](/blender3Dmodel/blender_workflow/planet_animation_in_blender.png)
+
+## 3D Model List
+
+- Dinosaur Model
+
+![](/blender3Dmodel/grid_view_of_models/Dinasaur.png)
+
+- Human Anatomy Model
+
+![](/blender3Dmodel/grid_view_of_models/Humanbody.png)
+
+- Planets Model
+
+![](/blender3Dmodel/grid_view_of_models/Planet.png)
+
+- Spacecraft Model
+
+![](/blender3Dmodel/grid_view_of_models/Space.png)
+
+- Volcano
+
+![](/blender3Dmodel/grid_view_of_models/volcano.gif)
