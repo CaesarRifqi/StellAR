@@ -4,7 +4,9 @@
 - The technology is anticipated to increase their degree of comprehension about learning by providing them with both easy operability and immersive sense.
 - Using this method, students may improve their understanding of planets, planet types, moons, size, distance, orbit, rings, rotation, and other topics. 
 - Learners who use Augmented Reality (AR) may observe the solar orbit and planets as if they were physically there at the site. 
-User should be able to grasp the anatomy of the human body with ease utilizing a 3D picture representation. 
+User should be able to grasp the anatomy of the human body with ease utilizing a 3D picture representation.
+- App Release:
+https://www.mediafire.com/file/uk0unnq4d0dh1cs/StellAR.apk/file 
 
 
 # Screenshots
