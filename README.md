@@ -10,11 +10,6 @@ User should be able to grasp the anatomy of the human body with ease utilizing a
 # Screenshots
 <img src="screenshot/1_WelcomeScreen.png" width=150><img src="screenshot/2_Menu.png" width=150><img src="screenshot/3_Info.png" width=150><img src="screenshot/4_ViewIn3D.png" width=150><img src="screenshot/5_ViewInAR.png" width=150>
 
-# Video
- ![](screenshot/TeachARVideo.gif)
-
-
-
 ## Technology Used
 <!-- Add the used technology names of project. -->
 <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
