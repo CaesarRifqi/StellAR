@@ -1,4 +1,4 @@
-# TeachAR
+# StellAR
 - The purpose of this project is to offer a platform of Augmented Reality to help students understand a difficult topic.
 - A suggested application for teaching and studying astronomy, the human body anatomy, and volcanology were developed in this project. 
 - The technology is anticipated to increase their degree of comprehension about learning by providing them with both easy operability and immersive sense.
